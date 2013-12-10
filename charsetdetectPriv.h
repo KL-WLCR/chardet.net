@@ -1,5 +1,7 @@
 /* The classes below are not exported */
-#pragma GCC visibility push(hidden)
+#if defined(__GNUC__)
+#  pragma GCC visibility push(hidden)
+#endif
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,4 +18,6 @@ protected:
     const char *mDetectedCharset;
 };
 
-#pragma GCC visibility pop
+#if defined(__GNUC__)
+#  pragma GCC visibility pop
+#endif

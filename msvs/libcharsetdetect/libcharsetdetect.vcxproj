@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38B30DA5-524F-48E5-9F87-792FA9AE2E69}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>libcharsetdetect</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(PlatformTarget)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\;$(SolutionDir)\..\nspr-emu\;$(SolutionDir)\..\mozilla\extensions\universalchardet\src\base\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\;$(SolutionDir)\..\nspr-emu\;$(SolutionDir)\..\mozilla\extensions\universalchardet\src\base\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\charsetdetect.h" />
+    <ClInclude Include="..\..\charsetdetectPriv.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\CharDistribution.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\JpCntx.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsBig5Prober.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsCharSetProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsCodingStateMachine.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEscCharsetProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCJPProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCKRProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCTWProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsGB2312Prober.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsHebrewProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsLatin1Prober.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsMBCSGroupProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsPkgInt.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCharSetProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCSGroupProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsSJISProber.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsUniversalDetector.h" />
+    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsUTF8Prober.h" />
+    <ClInclude Include="..\..\nscore.h" />
+    <ClInclude Include="..\..\nspr-emu\obsolete\protypes.h" />
+    <ClInclude Include="..\..\nspr-emu\prcpucfg.h" />
+    <ClInclude Include="..\..\nspr-emu\prcpucfg_freebsd.h" />
+    <ClInclude Include="..\..\nspr-emu\prcpucfg_linux.h" />
+    <ClInclude Include="..\..\nspr-emu\prcpucfg_mac.h" />
+    <ClInclude Include="..\..\nspr-emu\prcpucfg_openbsd.h" />
+    <ClInclude Include="..\..\nspr-emu\prcpucfg_win.h" />
+    <ClInclude Include="..\..\nspr-emu\prmem.h" />
+    <ClInclude Include="..\..\nspr-emu\prtypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\charsetdetect.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\CharDistribution.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\JpCntx.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangBulgarianModel.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangCyrillicModel.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangGreekModel.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangHebrewModel.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangHungarianModel.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangThaiModel.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsBig5Prober.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsCharSetProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEscCharsetProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEscSM.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCJPProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCKRProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCTWProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsGB2312Prober.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsHebrewProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsLatin1Prober.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsMBCSGroupProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsMBCSSM.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCharSetProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCSGroupProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsSJISProber.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsUniversalDetector.cpp" />
+    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsUTF8Prober.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\mozilla\extensions\universalchardet\src\base\Big5Freq.tab" />
+    <None Include="..\..\mozilla\extensions\universalchardet\src\base\EUCKRFreq.tab" />
+    <None Include="..\..\mozilla\extensions\universalchardet\src\base\EUCTWFreq.tab" />
+    <None Include="..\..\mozilla\extensions\universalchardet\src\base\GB2312Freq.tab" />
+    <None Include="..\..\mozilla\extensions\universalchardet\src\base\JISFreq.tab" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

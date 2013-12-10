@@ -24,3 +24,12 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 install_manifest.txt
+
+# Visual Studio
+[Dd]ebug/
+[Rr]elease/
+ipch/
+*.user
+*.suo
+*.sdf
+*.opensdf
