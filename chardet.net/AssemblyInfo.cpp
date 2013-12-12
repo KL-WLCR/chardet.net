@@ -9,12 +9,12 @@ using namespace System::Security::Permissions;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
-[assembly:AssemblyTitleAttribute(L"libcharsetdetect")];
-[assembly:AssemblyDescriptionAttribute(L"")];
+[assembly:AssemblyTitleAttribute(L"chardet.net")];
+[assembly:AssemblyDescriptionAttribute(L"Character encoding detector")];
 [assembly:AssemblyConfigurationAttribute(L"")];
 [assembly:AssemblyCompanyAttribute(L"")];
-[assembly:AssemblyProductAttribute(L"libcharsetdetect")];
-[assembly:AssemblyCopyrightAttribute(L"Copyright (c)  2013")];
+[assembly:AssemblyProductAttribute(L"chardet.net")];
+[assembly:AssemblyCopyrightAttribute(L"Copyright (c) 2013")];
 [assembly:AssemblyTrademarkAttribute(L"")];
 [assembly:AssemblyCultureAttribute(L"")];
 

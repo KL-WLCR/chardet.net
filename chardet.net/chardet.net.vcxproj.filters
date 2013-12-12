@@ -47,97 +47,97 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\CharDistribution.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\CharDistribution.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\JpCntx.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\JpCntx.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsBig5Prober.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsBig5Prober.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsCharSetProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsCharSetProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsCodingStateMachine.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsCodingStateMachine.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEscCharsetProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsEscCharsetProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCJPProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsEUCJPProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCKRProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsEUCKRProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCTWProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsEUCTWProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsGB2312Prober.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsGB2312Prober.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsHebrewProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsHebrewProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsLatin1Prober.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsLatin1Prober.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsMBCSGroupProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsMBCSGroupProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsPkgInt.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsPkgInt.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCharSetProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsSBCharSetProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCSGroupProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsSBCSGroupProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsSJISProber.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsSJISProber.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsUniversalDetector.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsUniversalDetector.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mozilla\extensions\universalchardet\src\base\nsUTF8Prober.h">
+    <ClInclude Include="mozilla\extensions\universalchardet\src\base\nsUTF8Prober.h">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prcpucfg.h">
+    <ClInclude Include="nspr-emu\prcpucfg.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prcpucfg_freebsd.h">
+    <ClInclude Include="nspr-emu\prcpucfg_freebsd.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prcpucfg_linux.h">
+    <ClInclude Include="nspr-emu\prcpucfg_linux.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prcpucfg_mac.h">
+    <ClInclude Include="nspr-emu\prcpucfg_mac.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prcpucfg_openbsd.h">
+    <ClInclude Include="nspr-emu\prcpucfg_openbsd.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prcpucfg_win.h">
+    <ClInclude Include="nspr-emu\prcpucfg_win.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prmem.h">
+    <ClInclude Include="nspr-emu\prmem.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\prtypes.h">
+    <ClInclude Include="nspr-emu\prtypes.h">
       <Filter>Header Files\nspr-emu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nspr-emu\obsolete\protypes.h">
+    <ClInclude Include="nspr-emu\obsolete\protypes.h">
       <Filter>Header Files\nspr-emu\obsolete</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\charsetdetect.h">
+    <ClInclude Include="charsetdetect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\charsetdetectPriv.h">
+    <ClInclude Include="charsetdetectPriv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nscore.h">
+    <ClInclude Include="nscore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CharsetDetector.h">
@@ -148,82 +148,82 @@
     <ClCompile Include="AssemblyInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\CharDistribution.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\CharDistribution.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\JpCntx.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\JpCntx.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangBulgarianModel.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\LangBulgarianModel.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangCyrillicModel.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\LangCyrillicModel.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangGreekModel.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\LangGreekModel.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangHebrewModel.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\LangHebrewModel.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangHungarianModel.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\LangHungarianModel.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\LangThaiModel.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\LangThaiModel.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsBig5Prober.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsBig5Prober.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsCharSetProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsCharSetProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEscCharsetProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsEscCharsetProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEscSM.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsEscSM.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCJPProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsEUCJPProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCKRProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsEUCKRProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsEUCTWProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsEUCTWProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsGB2312Prober.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsGB2312Prober.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsHebrewProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsHebrewProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsLatin1Prober.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsLatin1Prober.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsMBCSGroupProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsMBCSGroupProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsMBCSSM.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsMBCSSM.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCharSetProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsSBCharSetProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsSBCSGroupProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsSBCSGroupProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsSJISProber.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsSJISProber.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsUniversalDetector.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsUniversalDetector.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mozilla\extensions\universalchardet\src\base\nsUTF8Prober.cpp">
+    <ClCompile Include="mozilla\extensions\universalchardet\src\base\nsUTF8Prober.cpp">
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\charsetdetect.cpp">
+    <ClCompile Include="charsetdetect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CharsetDetector.cpp">
@@ -231,19 +231,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\mozilla\extensions\universalchardet\src\base\Big5Freq.tab">
+    <None Include="mozilla\extensions\universalchardet\src\base\Big5Freq.tab">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </None>
-    <None Include="..\..\mozilla\extensions\universalchardet\src\base\EUCKRFreq.tab">
+    <None Include="mozilla\extensions\universalchardet\src\base\EUCKRFreq.tab">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </None>
-    <None Include="..\..\mozilla\extensions\universalchardet\src\base\EUCTWFreq.tab">
+    <None Include="mozilla\extensions\universalchardet\src\base\EUCTWFreq.tab">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </None>
-    <None Include="..\..\mozilla\extensions\universalchardet\src\base\GB2312Freq.tab">
+    <None Include="mozilla\extensions\universalchardet\src\base\GB2312Freq.tab">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </None>
-    <None Include="..\..\mozilla\extensions\universalchardet\src\base\JISFreq.tab">
+    <None Include="mozilla\extensions\universalchardet\src\base\JISFreq.tab">
       <Filter>Header Files\mozilla\extensions\universalchardet\src\base</Filter>
     </None>
   </ItemGroup>

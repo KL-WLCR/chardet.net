@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\libcharsetdetect\libcharsetdetect.vcxproj">
+    <ProjectReference Include="..\chardet.net\chardet.net.vcxproj">
       <Project>{38b30da5-524f-48e5-9f87-792fa9ae2e69}</Project>
-      <Name>libcharsetdetect</Name>
+      <Name>chardet.net</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
