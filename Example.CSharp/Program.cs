@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using libcharsetdetect;
+using chardetnet;
 
 namespace Example.CSharp
 {

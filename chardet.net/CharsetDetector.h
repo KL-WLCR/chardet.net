@@ -1,7 +1,7 @@
 using namespace System;
 using namespace System::Text;
 
-namespace libcharsetdetect
+namespace chardetnet
 {
 	public ref class CharsetDetector
 	{

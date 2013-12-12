@@ -6,8 +6,11 @@
 using namespace System;
 using namespace System::Text;
 
-namespace libcharsetdetect
+namespace chardetnet
 {
+	/// <summary>
+	/// Detect encoding of byte array. Returns System.Encoding instance or null if detection failed.
+	/// </summary>
 	Encoding^ CharsetDetector::Detect(array<Byte>^ data)
 	{
 		cli::pin_ptr<unsigned char> dataPtr = &(data[0]);
