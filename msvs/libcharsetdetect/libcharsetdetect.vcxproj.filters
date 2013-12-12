@@ -140,6 +140,9 @@
     <ClInclude Include="..\..\nscore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CharsetDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp">
@@ -221,6 +224,9 @@
       <Filter>Source Files\mozilla\extensions\universalchardet\src\base</Filter>
     </ClCompile>
     <ClCompile Include="..\..\charsetdetect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharsetDetector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
