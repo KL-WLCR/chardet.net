@@ -11,11 +11,11 @@
 class Detector : public nsUniversalDetector {
 public:
 	Detector(PRUint32 aLanguageFilter) : nsUniversalDetector(aLanguageFilter) {};
-    int Consider(const char *data, int length);
-    const char *Close(void);
+	int Consider(const char *data, int length);
+	const char *Close(void);
 protected:
 	void Report(const char* aCharset);
-    const char *mDetectedCharset;
+	const char *mDetectedCharset;
 };
 
 #if defined(__GNUC__)
